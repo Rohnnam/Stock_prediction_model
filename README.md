@@ -14,6 +14,16 @@ Features
     - Evaluates the model's performance using RMSE (Root Mean Squared Error) and R-squared metrics from sklearn.metrics
     - Visualizes the actual vs. predicted prices using matplotlib.pyplot
 
+
+### Results
+The LSTM model achieved an RMSE of 4.27 and an R-squared value of 0.95 on the test set. This indicates that the model is able to explain 95% of the variance in the predicted stock prices and has an average error of 4.27 units.
+
+### Visualization of Actual vs. Predicted Prices
+
+The model's predictions are visualized against the actual stock prices. The plot below shows how closely the predicted prices follow the actual prices over the training period.
+
+![Actual vs. Predicted Prices](stock_model_2.png)
+
 ### Dependencies
 The project requires the following dependencies:
 
@@ -25,16 +35,6 @@ The project requires the following dependencies:
     - scikit-learn
     - keras
     - ta
-
-### Results
-The LSTM model achieved an RMSE of 4.27 and an R-squared value of 0.95 on the test set. This indicates that the model is able to explain 95% of the variance in the predicted stock prices and has an average error of 4.27 units.
-
-### Visualization of Actual vs. Predicted Prices
-
-The model's predictions are visualized against the actual stock prices. The plot below shows how closely the predicted prices follow the actual prices over the training period.
-
-![Actual vs. Predicted Prices](stock_model_2.png)
-
 
 #### Usage
 
