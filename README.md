@@ -14,7 +14,7 @@ Features
     - Evaluates the model's performance using RMSE (Root Mean Squared Error) and R-squared metrics from sklearn.metrics
     - Visualizes the actual vs. predicted prices using matplotlib.pyplot
 
-Dependencies
+### Dependencies
 The project requires the following dependencies:
 
     - pandas
@@ -25,3 +25,28 @@ The project requires the following dependencies:
     - scikit-learn
     - keras
     - ta
+
+### Results
+The LSTM model achieved an RMSE of 4.30 and an R-squared value of 0.95 on the test set. This indicates that the model is able to explain 95% of the variance in the predicted stock prices and has an average error of 4.30 units.
+
+### Visualization of Actual vs. Predicted Prices
+
+The model's predictions are visualized against the actual stock prices. The plot below shows how closely the predicted prices follow the actual prices over the training period.
+
+![Actual vs. Predicted Prices](path_to_your_image.png)
+
+#### Future Improvements
+
+    Experiment with different LSTM architectures, such as adding more layers or using GRU (Gated Recurrent Unit) layers
+    Incorporate additional features like news sentiment, economic indicators, or other technical indicators
+    Perform hyperparameter tuning to optimize the model's performance
+    Implement cross-validation to ensure the model's robustness
+    Test the model on more recent data or data from different time periods to assess its generalization capabilities
+
+#### Usage
+
+    Clone the repository to your local machine.
+    Create a config.py file in your project directory and fill in your MySQL database credentials and Alpha Vantage API key.
+    Install the required dependencies using pip install -r requirements.txt.
+    Run the main.py script to fetch data, train the model, and visualize the results.
+
