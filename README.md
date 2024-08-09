@@ -16,7 +16,7 @@ Features
 
 
 ### Results
-The LSTM model achieved an RMSE of 4.27 and an R-squared value of 0.95 on the test set. This indicates that the model is able to explain 95% of the variance in the predicted stock prices and has an average error of 4.27 units.
+The LSTM model achieved an **RMSE of 4.27** and an **R-squared value of 0.95** on the test set. This indicates that the model is able to explain 95% of the variance in the predicted stock prices and has an average error of 4.27 units.
 
 ### Visualization of Actual vs. Predicted Prices
 
