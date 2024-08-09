@@ -1,0 +1,6 @@
+DATABASE_CONFIG = {
+    'user': 'your_username',
+    'password': 'your_password',
+    'host': 'your_host',
+    'database': 'your_database'
+}
