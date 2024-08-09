@@ -33,7 +33,7 @@ The LSTM model achieved an RMSE of 4.27 and an R-squared value of 0.95 on the te
 
 The model's predictions are visualized against the actual stock prices. The plot below shows how closely the predicted prices follow the actual prices over the training period.
 
-![Actual vs. Predicted Prices](path_to_your_image.png)
+![Actual vs. Predicted Prices](stock_model_2.png)
 
 
 #### Usage
