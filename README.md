@@ -38,8 +38,8 @@ The project requires the following dependencies:
 
 #### Usage
 
--Clone the repository to your local machine.
--Create a config.py file in your project directory and fill in your MySQL database credentials and Alpha Vantage API key.
--Install the required dependencies using pip install -r requirements.txt.
--Run the main.py script to fetch data, train the model, and visualize the results.
+    - Clone the repository to your local machine.
+    - Create a config.py file in your project directory and fill in your MySQL database credentials and Alpha Vantage API key.
+    - Install the required dependencies using pip install -r requirements.txt.
+    - Run the main.py script to fetch data, train the model, and visualize the results.
 
